@@ -1,0 +1,21 @@
+# Creating a basic game 
+# Fight between a Wizard and Warrior
+
+class Character():
+    def __init__ (Self,Strength,Magic,Movement_speed):
+        Self.Strength = Strength
+        Self.Magic = Magic
+        Self.Movement_speed  = Movement_speed
+
+class Wizard(Character):
+    def Spell(Spell):
+        print("KAPOW")
+        
+class Warrior(Character):
+    def strike(Self):
+        print("Bash that was a strike")
+        
+gandalff = Wizard(2,10,6)
+Barbarian = Warrior(10,3,8)
+
+# Feel free to make any changes by commenting 
