@@ -1,0 +1,38 @@
+class Avengers():
+    def __init__ (Self,Strength,Weakness,Power):
+        Self.Strength = Strength
+        Self.Weakness = Weakness
+        Self.Power = Power
+        
+        
+class Ironman(Avengers):
+    def Arc(Self):
+        print("I am Tony STARK and I have the Soul Stone")
+        
+class God_of_Thunder(Avengers):
+    def Mjolinr(Self):
+        print(" I am Thor and I have the Reality Stone and My brother has the Space stone")
+        
+class Strange(Avengers):
+    def Eye_of_Agamoto(Self):
+        print("I am Dr Strange and I have the Time stone")
+        
+class Mind(Avengers):
+    def stone(Self):
+        print("I am vision and I have Mind Stone")
+        
+class Panther(Avengers):
+    def Wakanda(Self):
+        print(" I am your King")
+        
+class Thanos(Avengers):
+    def death(Self):
+        print("I am a mad Titan and I am your Death")
+        
+Tony_Stark = Ironman(2,5,7)
+Thor = God_of_Thunder(8,2,9)
+Dr_Strange  = Strange(5,4,8)
+Vision = Mind(8,2,7)
+Black_Panther = Panther(7,6,7)
+Mad_Titan = Thanos(9,0,10)
+    
